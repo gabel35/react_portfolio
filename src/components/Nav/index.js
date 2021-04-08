@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-function Navbar() {
+function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link 
@@ -57,4 +57,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Nav;
