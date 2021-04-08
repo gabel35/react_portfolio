@@ -4,9 +4,9 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <img type="image/png" src="../Assets/Images/bella_icon.png" style="width: 5%; height: 5%; transform:scaleX(-1);"/>
+      <img className="reverse" type="image/png" src="../react_portfolio/public/assets/bella_icon.png"/>
       <span>&copy; gabel35, 2021 </span>
-      <img type="image/png" src="../Assets/Images/bella_icon.png" style="width: 5%; height: 5%;"/>
+      <img className="reg" type="image/png" src="..\react_portfolio\public\assets\bella_icon.png"/>
     </footer>
   );
 }

@@ -16,10 +16,7 @@ function Form(props) {
           <label>Message</label>
           <textarea className="form-control" id="exampleInputEmail"></textarea>
         </div>
-        <button id="contactBtn" type="submit" className="btn btn-warning">Submit</button>
-        <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success">
-          Search
-        </button>
+        <button id="contactBtn" type="submit" className="btn btn-warning" onClick={props.handleFormSubmit}>Submit</button>
     </form>
   );
 }
