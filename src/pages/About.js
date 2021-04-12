@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../components/Card";
+import AboutMe from "../components/AboutMe";
 
 function About() {
   return (
     <div>
-      <Card />
+      <AboutMe/>
     </div>
   );
 }

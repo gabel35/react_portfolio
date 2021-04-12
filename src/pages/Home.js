@@ -1,10 +1,10 @@
 import React from "react";
-import Jumbotron from "../components/Jumbotron";
+import HomeCont from "../components/HomeCont";
 
 function Home() {
   return (
     <div>
-        <Jumbotron />
+      <HomeCont/>
     </div>
   );
 }

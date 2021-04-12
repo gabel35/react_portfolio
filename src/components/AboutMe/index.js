@@ -1,10 +1,12 @@
 import React from "react";
+import Jumbotron from "../Jumbotron";
 
-function Card() {
+function AboutMe() {
   return (
-    <div className="jumbotron card-container">
+    <div
+      className="jumbotron jumbotron-fluid">
       <div className="container">
-          <img className="img-fluid" id="myPic" src="../../public/assets/meChicago.JPG" alt="Image of me standing by a window" />
+          <img className="img-fluid" id="myPic" src="..\react_portfolio\public\assets\meChicago.JPG" alt="Image of me standing by a window" />
           <a href="https://www.linkedin.com/in/gabriel-jose-sanchez-919b88a1/" target="_blank">
             <button className="amBtn" id="linkedIn">LinkedIn</button>
           </a>
@@ -23,4 +25,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default AboutMe;
