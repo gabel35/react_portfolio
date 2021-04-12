@@ -39,11 +39,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
-        {/* <img 
-          className="img-fluid hover appPics" 
-          src={test()}
-          alt="background bella"
-        /> */}
+      <Home />
       <Footer />
     </div>
   </Router>
