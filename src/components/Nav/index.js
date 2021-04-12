@@ -5,13 +5,15 @@ import Logo from "../Assets/bella_icon.png";
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <img   
+      <Link to="/">
+        <img   
         src={Logo} 
         width="30" 
         height="30"  
         alt="My portfoliio's icon, my dog, Bella's head"
         className="d-inline-block align-top navbar-brand" >
-      </img>
+        </img>
+      </Link>
       <Link 
         to="/">
         gabel35

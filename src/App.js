@@ -35,11 +35,10 @@ function App() {
     <Router>
     <div className="background" style={{backgroundImage: `url(${test()}) no-repeat center center/cover`}}>
       <Nav />
-        <Route exact path="/" component={Home} />
+      <Home />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
-      <Home />
       <Footer />
     </div>
   </Router>
