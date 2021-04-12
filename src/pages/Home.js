@@ -4,7 +4,7 @@ import Jumbotron from "../components/Jumbotron";
 function Home() {
   return (
     <div>
-      <Jumbotron />
+        <Jumbotron />
     </div>
   );
 }
