@@ -1,20 +1,33 @@
 import React from "react";
-import Jumbotron from "../Jumbotron";
+import "./style.css";
 
 function AboutMe() {
   return (
     <div
       className="jumbotron jumbotron-fluid">
       <div className="container">
-          <img className="img-fluid" id="myPic" src="..\react_portfolio\public\assets\meChicago.JPG" alt="Image of me standing by a window" />
+          <img 
+            className="img-fluid" 
+            src="..\react_portfolio\public\assets\meChicago.JPG" 
+            alt="Image of me standing by a window"
+          />
           <a href="https://www.linkedin.com/in/gabriel-jose-sanchez-919b88a1/" target="_blank">
-            <button className="amBtn" id="linkedIn">LinkedIn</button>
+            <button 
+              id="linkedIn"
+            >LinkedIn
+            </button>
           </a>
           <a href="https://github.com/gabel35" target="_blank">
-            <button className="amBtn" id="gitHub">Github</button>
+            <button 
+              id="gitHub"
+            >Github
+            </button>
           </a>
-          <a href="../../public/assets/CV_21-3-7.pdf" target="_blank">
-            <button className="amBtn" id="reSume">Resume</button>
+          <a href="..\react_portfolio\public\assets\CV_21-3-7.pdf" target="_blank">
+            <button
+              id="resume"
+            >Resume
+            </button>
           </a>
           <h1 className="display-4">About Me</h1>
           <p> 

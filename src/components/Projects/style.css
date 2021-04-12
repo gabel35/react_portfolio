@@ -1,3 +1,44 @@
+h1 {
+    border-bottom: solid thin black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(202, 139, 149);
+}
+
 .appTitle {
     font-weight: bold;
+}
+
+img {
+    border: solid;
+    border-color: pink;
+}
+
+button {
+    background-color: rgb(202, 139, 149);
+    font-size: 12px;
+    border-color: rgb(255, 183, 233);
+}
+
+.portfolioPic {
+    padding: 2px;
+}
+
+.portfolioPic .text {
+    position:center;
+    color: rgb(255, 183, 233);
+    visibility:hidden;
+    }
+    
+    .portfolioPic:hover {
+        filter: brightness(50%);
+    }
+
+    .portfolioPic:hover .text {
+        visibility: visible;
+    }
+
+.appPics {
+    border:solid;
+    border-color: rgb(202, 139, 149);
 }
