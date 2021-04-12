@@ -1,19 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./style.css";
+import Logo from "../Assets/bella_icon.png";
 
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <img   
-        src="/assets/bella_icon.png" 
-        className={
-          window.location.pathname === "/bella_icon.png"}
+        src={Logo} 
         width="30" 
         height="30"  
-        class="d-inline-block align-top" 
         alt="My portfoliio's icon, my dog, Bella's head"
-        className="navbar-brand" ></img>
+        className="d-inline-block align-top navbar-brand" >
+      </img>
       <Link 
         to="/">
         gabel35

@@ -6,7 +6,6 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import logo from './logo.svg';
 import './App.css';
 
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Chicago from "../Assets/meChicago.JPG";
 import "./style.css";
 
 function AboutMe() {
@@ -8,22 +9,24 @@ function AboutMe() {
       <div className="container">
           <img 
             className="img-fluid" 
-            src="..\react_portfolio\public\assets\meChicago.JPG" 
-            alt="Image of me standing by a window"
+            src={Chicago}
+            width="20%"
+            height="20%"
+            alt="me standing by a window"
           />
-          <a href="https://www.linkedin.com/in/gabriel-jose-sanchez-919b88a1/" target="_blank">
+          <a href="https://www.linkedin.com/in/gabriel-jose-sanchez-919b88a1/" target="_blank" rel="noreferrer">
             <button 
               id="linkedIn"
             >LinkedIn
             </button>
           </a>
-          <a href="https://github.com/gabel35" target="_blank">
+          <a href="https://github.com/gabel35" target="_blank" rel="noreferrer">
             <button 
               id="gitHub"
             >Github
             </button>
           </a>
-          <a href="..\react_portfolio\public\assets\CV_21-3-7.pdf" target="_blank">
+          <a href="..\react_portfolio\public\assets\CV_21-3-7.pdf" target="_blank" rel="noreferrer">
             <button
               id="resume"
             >Resume
