@@ -9,11 +9,6 @@ h1 {
     font-weight: bold;
 }
 
-img {
-    border: solid;
-    border-color: pink;
-}
-
 button {
     background-color: rgb(202, 139, 149);
     font-size: 12px;
