@@ -5,12 +5,17 @@ import "./style.css";
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link 
-    src=".../../public/assets/bella_icon.png" 
-    width="30" 
-        height="30" class="d-inline-block align-top" 
+      <img   
+        src="/assets/bella_icon.png" 
+        className={
+          window.location.pathname === "/bella_icon.png"}
+        width="30" 
+        height="30"  
+        class="d-inline-block align-top" 
         alt="My portfoliio's icon, my dog, Bella's head"
-      className="navbar-brand" to="/">
+        className="navbar-brand" ></img>
+      <Link 
+        to="/">
         gabel35
       </Link>
       <div>

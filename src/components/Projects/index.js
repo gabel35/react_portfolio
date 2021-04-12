@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link, Route } from "react-router-dom";
 
 const projectPics = "../../../public/assets/projects";
 
@@ -14,7 +15,7 @@ function Projects() {
       <div className="col-lg-4 portfolioPic">
         <img 
           className="img-fluid hover appPics" 
-          src="../../../public/assets/projects/the-burger-joint.PNG" 
+          src={`${projectPics}/the-burger-joint.PNG"`}
           alt="burger restaurant app"
         />
         <a href="https://hidden-ravine-71551.herokuapp.com/" target="_blank">

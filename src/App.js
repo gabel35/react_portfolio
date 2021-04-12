@@ -9,10 +9,11 @@ import Footer from "./components/Footer";
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
     <Router>
-    <div>
+    <div style={{backgroundColor: "pink"}}>
       <Nav />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
