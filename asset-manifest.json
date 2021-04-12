@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.eae7bad4.chunk.css",
+    "main.css": "/react_portfolio/static/css/main.3e900bec.chunk.css",
     "main.js": "/react_portfolio/static/js/main.6ba7c744.chunk.js",
     "main.js.map": "/react_portfolio/static/js/main.6ba7c744.chunk.js.map",
     "runtime-main.js": "/react_portfolio/static/js/runtime-main.6e128d9b.js",
@@ -12,7 +12,7 @@
     "static/js/3.a0df6149.chunk.js.map": "/react_portfolio/static/js/3.a0df6149.chunk.js.map",
     "index.html": "/react_portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/react_portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.eae7bad4.chunk.css.map": "/react_portfolio/static/css/main.eae7bad4.chunk.css.map",
+    "static/css/main.3e900bec.chunk.css.map": "/react_portfolio/static/css/main.3e900bec.chunk.css.map",
     "static/js/2.a38208b9.chunk.js.LICENSE.txt": "/react_portfolio/static/js/2.a38208b9.chunk.js.LICENSE.txt",
     "static/media/CV_21-3-7.1a025742.pdf": "/react_portfolio/static/media/CV_21-3-7.1a025742.pdf",
     "static/media/Spyglass.d064f84c.PNG": "/react_portfolio/static/media/Spyglass.d064f84c.PNG",
@@ -43,7 +43,7 @@
     "static/js/runtime-main.6e128d9b.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.a38208b9.chunk.js",
-    "static/css/main.eae7bad4.chunk.css",
+    "static/css/main.3e900bec.chunk.css",
     "static/js/main.6ba7c744.chunk.js"
   ]
 }
