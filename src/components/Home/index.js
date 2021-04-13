@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function HomeCont(){
+function Home(){
   return (
     <div
       className="jumbotron jumbotron-fluid">
@@ -14,4 +14,4 @@ function HomeCont(){
   )
 }
 
-export default HomeCont;
+export default Home;

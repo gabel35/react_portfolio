@@ -1,12 +1,10 @@
-import React from "react";
-import HomeCont from "../components/HomeCont";
+// import React from "react";
+// import Home from "../components/Home";
 
-function Home() {
-  return (
-    <div>
-      <HomeCont/>
-    </div>
-  );
-}
+// function Home() {
+//   return (
+//       <Home/>
+//   );
+// }
 
-export default Home;
+// export default Home;
